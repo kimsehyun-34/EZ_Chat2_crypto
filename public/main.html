@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UN-EMS</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <h1>Underground EMS</h1>
+    <div id="loginDiv">
+        <input type="text" id="username" placeholder="ID">
+        <input type="password" id="password" placeholder="PW">
+        <button id="loginButton">로그인</button>
+    </div>
+    <div id="roomDiv" style="display:none;">
+        <input type="text" id="roomNumber" placeholder="입장 번호입력">
+        <button id="enterRoomButton">입장 번호</button>
+    </div>
+    <div id="chatDiv" style="display:none;">
+        <input type="text" id="messageInput" placeholder="메시지">
+        <button id="sendButton">전송</button>
+        <div id="messages"></div>
+    </div>
+</body>
+</html>
