@@ -8,8 +8,9 @@
 - WebSocket을 지원하는 실시간 메시징.
 ------
 ## 설치
+#### 0. PC에 Node.js가 설치돼있어야 함
 
-1. 설치:
+#### 1. 설치:
     > .zip 설치도 가능
    ```
    cd 설치경로
@@ -18,7 +19,7 @@
    git clone https://github.com/kimsehyun-34/EZ_Chat2_crypto.git
    ```
 
-2. npm 설치:
+#### 2. npm 설치:
    ```
    npm install
    ```
